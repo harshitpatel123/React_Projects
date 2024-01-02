@@ -1,6 +1,6 @@
 import Photo from "./photo"
 
-export function Gl1(){
+export function Gl1({name2,age}){
     let name1 = "HarshitPatel"
     return (
         <div style={
@@ -10,6 +10,7 @@ export function Gl1(){
             }
         }>
         <h1>This is Gallery componenet {name1}</h1>
+        <p>this name is coming from promps --- name: {name2} , age : {age}</p>
             <Photo/>
         </div>
     )
