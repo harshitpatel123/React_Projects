@@ -5,6 +5,7 @@ import { Gl1 } from './components/gallery';
 import Packing from './components/paking';
 import Listitems from './components/itemlist';
 import Textform from './components/textform';
+import Darkmode from './components/darkmode'; 
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         size = {100} />
       <Gl1 name2="Harshit" age="20" />
       <Packing/>
+      <Darkmode />
       <br /><br />
       {/* <p>This is list rendering </p>
       <Listitems/> */}
