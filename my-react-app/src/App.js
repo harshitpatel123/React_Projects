@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import { Gl1 } from './components/gallery';
 import Packing from './components/paking';
 import Listitems from './components/itemlist';
+import Textform from './components/textform';
 
 function App() {
   return (
@@ -15,8 +16,9 @@ function App() {
       <Gl1 name2="Harshit" age="20" />
       <Packing/>
       <br /><br />
-      <p>This is list rendering </p>
-      <Listitems/>
+      {/* <p>This is list rendering </p>
+      <Listitems/> */}
+      <Textform heading = "This is event practice"/>
     </>
   );
 }
