@@ -12,6 +12,7 @@ import TaskList from './components/TaskList';
 import StopWatch from './components/StopWatch';
 import VideoPlayer from './components/VideoPlayer';
 import OnlineStatus from './components/OnlineStatus';
+import ContextPrac from './components/ContextPrac';
 
 function App() {
   return (
@@ -29,10 +30,11 @@ function App() {
       {/* <Textform heading = "This is event practice"/> */}
       {/* <EventButton/> */}
       {/* <SigninForm /> */}
-      <TaskList/>
+      {/* <TaskList/> */}
       {/* <StopWatch /> */}
       {/* <VideoPlayer /> */}
       {/* <OnlineStatus /> */}
+      <ContextPrac />
 
     </>
   );
